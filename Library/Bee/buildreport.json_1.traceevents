@@ -1,0 +1,535 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1663224865688509, "dur": 1242923, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663224865688542, "dur": 3340, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663224865691888, "dur": 32709, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663224865724602, "dur": 235442, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663224865960049, "dur": 959088, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663224866919139, "dur": 12290, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663224866932620, "dur": 47, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1663224865824178, "dur": 115935, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1663224865825522, "dur": 45925, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1663224865921583, "dur": 5270, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1663224865926859, "dur": 13226, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1663224865927724, "dur": 10158, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1663224865945532, "dur": 1250, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1663224865944710, "dur": 2098, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663224866932797, "dur": 267, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1663224866002582, "dur":1567, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663224866004156, "dur":52, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1663224866004223, "dur":17, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1663224866004242, "dur":470, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1663224866004734, "dur":692, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663224866005426, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663224866905969, "dur":468, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663224866906437, "dur":26, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663224866906463, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663224866906466, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663224866906477, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663224866906478, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663224866906484, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663224866906485, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663224866906490, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663224866906492, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663224866906497, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663224866906498, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663224866906505, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663224866906506, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663224866906511, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663224866906513, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663224866906517, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663224866906518, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663224866906523, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663224866906525, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663224866906530, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663224866906531, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663224866906537, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663224866906538, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663224866906544, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663224866906559, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663224866906603, "dur":2784, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1663224866005397, "dur":126, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663224866005523, "dur":5568, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663224866011098, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1663224866011346, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663224866030922, "dur":65811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1663224866096785, "dur":531, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663224866097327, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663224866097341, "dur":82176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663224866179555, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663224866179590, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663224866179600, "dur":46728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663224866226375, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663224866226414, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663224866226424, "dur":20130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663224866246595, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663224866246635, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663224866246647, "dur":32717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663224866279402, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663224866279439, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663224866279479, "dur":44634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663224866324150, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663224866324184, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663224866324194, "dur":61844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663224866386079, "dur":48587, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663224866434672, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663224866434685, "dur":23997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663224866458720, "dur":2721, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663224866461447, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663224866461458, "dur":10093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663224866471618, "dur":7993, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663224866479617, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663224866479628, "dur":5053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663224866484737, "dur":1084, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663224866485828, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663224866485841, "dur":1466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663224866487339, "dur":1102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663224866488473, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663224866488485, "dur":3161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663224866491685, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663224866491735, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663224866491837, "dur":234044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663224866725917, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1663224866725957, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663224866725966, "dur":1972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1663224866727978, "dur":177982, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663224866005195, "dur":279, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663224866005474, "dur":5613, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663224866011088, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1663224866011196, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663224866013536, "dur":1448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1663224866015026, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1663224866015069, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663224866015844, "dur":1201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1663224866017084, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1663224866017141, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663224866017152, "dur":67672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1663224866084885, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663224866084949, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663224866084956, "dur":26563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663224866111557, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663224866111593, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663224866111603, "dur":89687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663224866201332, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663224866201370, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663224866201380, "dur":33080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663224866234497, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663224866234530, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663224866234540, "dur":53497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663224866288073, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663224866288106, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663224866288116, "dur":41792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663224866329950, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663224866329989, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663224866329999, "dur":38939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663224866369001, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663224866369121, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663224866369133, "dur":34507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663224866403682, "dur":84959, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663224866488646, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663224866488655, "dur":8840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663224866497532, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663224866497567, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663224866497578, "dur":142670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663224866640285, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663224866640330, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663224866640342, "dur":174279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663224866814649, "dur":91312, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663224866005216, "dur":269, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663224866005486, "dur":5602, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663224866011092, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1663224866011296, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663224866018534, "dur":68084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1663224866086664, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663224866086794, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663224866086891, "dur":31231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663224866118158, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663224866118224, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663224866118234, "dur":32762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663224866151030, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663224866151068, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663224866151075, "dur":27964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663224866179071, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663224866179105, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663224866179112, "dur":98107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663224866277262, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663224866277307, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663224866277316, "dur":35836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663224866313188, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663224866313220, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663224866313230, "dur":24507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663224866337786, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663224866337828, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663224866337838, "dur":57088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663224866394965, "dur":133642, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663224866528613, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663224866528624, "dur":1474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663224866530132, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663224866530175, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663224866530209, "dur":80680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663224866610919, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663224866610950, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663224866610959, "dur":141623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663224866752606, "dur":153331, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663224866005065, "dur":385, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663224866005451, "dur":5629, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663224866011086, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1663224866011313, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663224866024324, "dur":103596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1663224866127959, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663224866127995, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663224866128004, "dur":43787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663224866171825, "dur":201869, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663224866373701, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663224866373715, "dur":5238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663224866379009, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663224866379065, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663224866379076, "dur":116717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663224866495841, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663224866495882, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663224866495891, "dur":99703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663224866595628, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663224866595660, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663224866595669, "dur":118551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663224866714256, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1663224866714294, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663224866714347, "dur":9314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1663224866723698, "dur":3537, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1663224866727243, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663224866727255, "dur":1819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1663224866729114, "dur":176824, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663224866005124, "dur":341, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663224866005465, "dur":5636, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663224866011101, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1663224866011283, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663224866017501, "dur":1429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1663224866018970, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663224866019021, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663224866019428, "dur":67587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663224866087054, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663224866087094, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663224866087102, "dur":42773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663224866129908, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663224866129942, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663224866129951, "dur":49043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663224866179029, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663224866179062, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663224866179071, "dur":45766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663224866224878, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663224866224915, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663224866224926, "dur":22927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663224866247896, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663224866247950, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663224866247961, "dur":31210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663224866279209, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663224866279245, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663224866279255, "dur":32320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663224866311615, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663224866311650, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663224866311660, "dur":23715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663224866335417, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663224866335454, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663224866335463, "dur":138499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663224866473998, "dur":33983, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663224866507987, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663224866508000, "dur":1238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663224866509272, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663224866509337, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663224866509348, "dur":167175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663224866676557, "dur":1818, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663224866678381, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663224866678392, "dur":1047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663224866679474, "dur":55196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663224866734678, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663224866734692, "dur":1433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663224866736164, "dur":169790, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663224866004965, "dur":476, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663224866005446, "dur":5615, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663224866011080, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":6, "ts":1663224866011082, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663224866011150, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/app.info" }}
+,{ "pid":12345, "tid":6, "ts":1663224866011156, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663224866012329, "dur":2622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/app.info" }}
+,{ "pid":12345, "tid":6, "ts":1663224866014954, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1663224866015003, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663224866015833, "dur":1251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1663224866017143, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1663224866017201, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663224866017211, "dur":67156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1663224866084437, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663224866084501, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663224866084565, "dur":10606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663224866095214, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663224866095265, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663224866095278, "dur":75473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663224866170809, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663224866170846, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663224866170855, "dur":52840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663224866223735, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663224866223770, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663224866223790, "dur":28817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663224866252643, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663224866252681, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663224866252691, "dur":24572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663224866277304, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663224866277345, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663224866277354, "dur":43673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663224866321062, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663224866321097, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663224866321107, "dur":21968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663224866343115, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663224866343179, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663224866343190, "dur":22285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663224866365509, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663224866365542, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663224866365552, "dur":44700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663224866410308, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663224866410364, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663224866410373, "dur":51874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663224866462283, "dur":54639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663224866516928, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663224866516938, "dur":11998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663224866528973, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663224866529005, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663224866529014, "dur":75615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663224866604663, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663224866604698, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663224866604708, "dur":118776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663224866723529, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1663224866723711, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663224866723721, "dur":2191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1663224866725943, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1663224866725976, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663224866725982, "dur":1948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1663224866727977, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1663224866728139, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663224866728149, "dur":1115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1663224866729297, "dur":176651, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663224866005270, "dur":228, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663224866005498, "dur":5590, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663224866011091, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1663224866011339, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663224866026565, "dur":59539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1663224866086160, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura.exe" }}
+,{ "pid":12345, "tid":7, "ts":1663224866086206, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663224866086211, "dur":35083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura.exe" }}
+,{ "pid":12345, "tid":7, "ts":1663224866121338, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663224866121377, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663224866121387, "dur":21206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663224866142631, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663224866142668, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663224866142678, "dur":82477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663224866225192, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663224866225257, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663224866225266, "dur":55341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663224866280645, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663224866280681, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663224866280691, "dur":50344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663224866331073, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663224866331108, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663224866331118, "dur":50025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663224866381182, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663224866381219, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663224866381228, "dur":37939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663224866419205, "dur":63618, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663224866482830, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663224866482873, "dur":3959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663224866486869, "dur":24563, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663224866511438, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663224866511450, "dur":1005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663224866512486, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663224866512519, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663224866512528, "dur":78536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663224866591116, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663224866591173, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663224866591184, "dur":132521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663224866723733, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/level0.resS" }}
+,{ "pid":12345, "tid":7, "ts":1663224866723764, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663224866723770, "dur":2667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/level0.resS" }}
+,{ "pid":12345, "tid":7, "ts":1663224866726471, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1663224866726505, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663224866726514, "dur":2433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1663224866728980, "dur":176963, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663224866005368, "dur":139, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663224866005507, "dur":5597, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663224866011105, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1663224866011304, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663224866023218, "dur":62891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1663224866086178, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1663224866086223, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663224866086863, "dur":6958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1663224866093859, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663224866093900, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663224866093943, "dur":25498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663224866119475, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663224866119515, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663224866119524, "dur":52129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663224866171693, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663224866171732, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663224866171741, "dur":147011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663224866319011, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663224866319076, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663224866319087, "dur":45161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663224866364281, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663224866364321, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663224866364330, "dur":121183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663224866485551, "dur":35985, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663224866521542, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663224866521554, "dur":8396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663224866529992, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663224866530034, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663224866530043, "dur":38690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663224866569094, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663224866569177, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663224866569188, "dur":222295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663224866791508, "dur":114428, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663224866005449, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663224866005449, "dur":5624, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663224866011080, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":9, "ts":1663224866011332, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663224866026012, "dur":59700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":9, "ts":1663224866085777, "dur":306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":9, "ts":1663224866086092, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663224866086104, "dur":5900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":9, "ts":1663224866092072, "dur":24105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663224866116184, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663224866116196, "dur":56232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663224866172474, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663224866172506, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663224866172515, "dur":114090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663224866286641, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663224866286681, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663224866286691, "dur":43987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663224866330727, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663224866330787, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663224866330798, "dur":55210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663224866386051, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663224866386098, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663224866386109, "dur":99464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663224866485608, "dur":1078, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663224866486693, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663224866486704, "dur":1384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663224866488125, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663224866488165, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663224866488176, "dur":84814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663224866573026, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663224866573061, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663224866573070, "dur":61563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663224866634666, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663224866634700, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663224866634709, "dur":271160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663224866905893, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":9, "ts":1663224866905895, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663224866005517, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663224866005517, "dur":5566, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663224866011085, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1663224866011353, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663224866034704, "dur":53379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1663224866088839, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663224866089058, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663224866089077, "dur":62089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663224866151210, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663224866151244, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663224866151251, "dur":50114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663224866201400, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663224866201436, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663224866201443, "dur":87534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663224866289012, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663224866289045, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663224866289053, "dur":37858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663224866326945, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663224866327012, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663224866327022, "dur":44572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663224866371626, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663224866371659, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663224866371668, "dur":108874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663224866480579, "dur":50171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663224866530757, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663224866530768, "dur":5256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663224866536058, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663224866536090, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663224866536099, "dur":35180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663224866571315, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663224866571350, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663224866571360, "dur":194167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663224866765552, "dur":140394, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663224866005565, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663224866005566, "dur":5530, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663224866011097, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1663224866011279, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663224866013676, "dur":1302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1663224866015022, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1663224866015077, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663224866015842, "dur":1132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1663224866017018, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1663224866017067, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663224866017137, "dur":1788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1663224866018970, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":11, "ts":1663224866019015, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663224866019026, "dur":67112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":11, "ts":1663224866086182, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663224866086256, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663224866086669, "dur":64316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663224866151020, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663224866151055, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663224866151064, "dur":66045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663224866217149, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663224866217190, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663224866217199, "dur":79955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663224866297191, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663224866297239, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663224866297277, "dur":180213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663224866477524, "dur":3912, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663224866481443, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663224866481457, "dur":3196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663224866484692, "dur":1130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663224866485828, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663224866485841, "dur":6742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663224866492619, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663224866492650, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663224866492659, "dur":74859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663224866567553, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663224866567591, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663224866567601, "dur":183140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663224866750779, "dur":155156, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663224866005622, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663224866005622, "dur":5488, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663224866011111, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1663224866011324, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663224866024760, "dur":61853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1663224866086657, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663224866086800, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663224866086888, "dur":90903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663224866177829, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663224866177866, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663224866177935, "dur":114402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663224866292372, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663224866292408, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663224866292417, "dur":85684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663224866378153, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663224866378188, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663224866378199, "dur":61147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663224866439384, "dur":188275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663224866627666, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663224866627676, "dur":1282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663224866628992, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663224866629025, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663224866629035, "dur":62721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663224866691792, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":12, "ts":1663224866691972, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663224866692472, "dur":1033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":12, "ts":1663224866693543, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":12, "ts":1663224866693578, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663224866693615, "dur":1548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":12, "ts":1663224866695199, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1663224866695240, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663224866695250, "dur":55443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/calwo/OneDrive/C# Programming/Anura/Builds/v1/Anura_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1663224866750730, "dur":155215, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663224866911337, "dur":1867, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1663224866933140, "dur": 893, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663224866932587, "dur": 1477, "ph": "X", "name": "Write chrome-trace events", "args": {} },
